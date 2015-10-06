@@ -1,0 +1,69 @@
+Enter quit to stop
+enter a cmd line: ls -l -a 
+
+Command line: ls -l -a 
+
+  0  #ls#
+  1  #-l#
+  2  #-a#
+run in the background is false
+
+Command line: ls -l -a 
+
+  0  #ls#
+  1  #-l#
+  2  #-a#
+run in the background is false
+
+enter a cmd line: yo ho ho &
+
+Command line: yo ho ho &
+
+  0  #yo#
+  1  #ho#
+  2  #ho#
+run in the background is true
+
+Command line: yo ho ho &
+
+  0  #yo#
+  1  #ho#
+  2  #ho#
+run in the background is true
+
+enter a cmd line:        a            b             c     def   ghijk  lmnop q    &
+
+Command line:       a            b             c     def   ghijk  lmnop q    &
+
+  0  #a#
+  1  #b#
+  2  #c#
+  3  #def#
+  4  #ghijk#
+  5  #lmnop#
+  6  #q#
+run in the background is true
+
+Command line:       a            b             c     def   ghijk  lmnop q    &
+
+  0  #a#
+  1  #b#
+  2  #c#
+  3  #def#
+  4  #ghijk#
+  5  #lmnop#
+  6  #q#
+run in the background is true
+
+enter a cmd line: pwd
+
+Command line: pwd
+
+  0  #pwd#
+run in the background is false
+
+Command line: pwd
+
+  0  #pwd#
+run in the background is false
+enter a cmd line: quit
